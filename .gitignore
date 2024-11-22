@@ -1,0 +1,66 @@
+# Ignore object files and binary executables
+*.o
+*.out
+*.exe
+*.a
+*.so
+*.dll
+
+# Ignore compiler-generated files
+*.d
+*.dSYM/
+*.stackdump
+
+# Ignore build directories
+/build/
+/bin/
+/obj/
+/debug/
+/release/
+/dist/
+
+# Ignore IDE and editor specific files
+*.swp
+*.swo
+*.swn
+*~
+*.bak
+*.tmp
+*.log
+
+# VSCode
+.vscode/
+*.code-workspace
+
+# CLion
+.idea/
+cmake-build-*/
+
+# Eclipse
+.project
+.cproject
+.settings/
+
+# Code::Blocks
+*.cbp
+*.layout
+
+# Qt Creator
+*.pro.user
+*.pro.user.*
+
+# CMake files
+CMakeLists.txt.user
+CMakeCache.txt
+CMakeFiles/
+/cmake-build-debug/
+Makefile
+
+# Temporary files
+*.tmp
+*.~*
+
+# Ignore system files
+.DS_Store
+Thumbs.db
+desktop.ini
