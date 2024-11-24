@@ -54,7 +54,6 @@ CMakeLists.txt.user
 CMakeCache.txt
 CMakeFiles/
 /cmake-build-debug/
-Makefile
 
 # Temporary files
 *.tmp
